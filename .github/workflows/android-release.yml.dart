@@ -1,4 +1,4 @@
-on: push
+n: push
 name: Test, Build and Release apk
 jobs:
 build:
@@ -11,7 +11,7 @@ with:
 java-version: '12.x'
 - uses: subosito/flutter-action@v1
 with:
-flutter-version: '3.10.0'
+flutter-version: '1.7.8+hotfix.4'
 - run: flutter pub get
 - run: flutter test
 - run: flutter build apk --debug --split-per-abi
