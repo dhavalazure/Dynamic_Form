@@ -249,6 +249,20 @@
 					"is_mandatory": true
 				}
 			}
+		},
+		{
+			"type": "short_text",
+			"id": 10,
+			"ob": {
+				"label": "Enter Address",
+				"validation": {
+					"content-type": "address",
+					"input_type": "text / number ",
+					"length": [
+						1,30
+					]
+				}
+			}
 		}
 	],
 	"total_page" : 2,
