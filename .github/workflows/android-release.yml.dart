@@ -1,4 +1,4 @@
-n: push
+on: push
 name: Test, Build and Release apk
 jobs:
 build:
