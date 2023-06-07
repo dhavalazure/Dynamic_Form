@@ -254,9 +254,9 @@
 			"type": "short_text",
 			"id": 10,
 			"ob": {
-				"label": "Enter Address",
+				"label": "Enter City",
 				"validation": {
-					"content-type": "address",
+					"content-type": "city",
 					"input_type": "text / number ",
 					"length": [
 						1,30
